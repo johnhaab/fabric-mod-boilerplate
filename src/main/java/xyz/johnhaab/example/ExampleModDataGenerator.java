@@ -1,4 +1,4 @@
-package xyz.johnhaab.testing;
+package xyz.johnhaab.example;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

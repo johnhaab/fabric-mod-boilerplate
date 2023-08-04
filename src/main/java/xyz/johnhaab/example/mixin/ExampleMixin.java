@@ -1,4 +1,4 @@
-package xyz.johnhaab.testing.mixin;
+package xyz.johnhaab.example.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

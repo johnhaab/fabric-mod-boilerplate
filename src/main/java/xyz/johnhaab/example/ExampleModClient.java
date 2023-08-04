@@ -1,4 +1,4 @@
-package xyz.johnhaab.testing;
+package xyz.johnhaab.example;
 
 import net.fabricmc.api.ClientModInitializer;
 

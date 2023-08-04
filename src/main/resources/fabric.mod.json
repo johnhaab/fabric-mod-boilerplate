@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/testing-mod/icon.png",
+	"icon": "assets/example-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.johnhaab.testing.ExampleMod"
+			"xyz.johnhaab.example.ExampleMod"
 		],
 		"client": [
-			"xyz.johnhaab.testing.ExampleModClient"
+			"xyz.johnhaab.example.ExampleModClient"
 		],
 		"fabric-datagen": [
-			"xyz.johnhaab.testing.ExampleModDataGenerator"
+			"xyz.johnhaab.example.ExampleModDataGenerator"
 		]
 	},
 	"mixins": [
