@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "example-mod",
+	"version": "${version}",
+	"name": "Example Mod",
+	"description": "This is a boilerplate for Fabric mod development.",
+	"authors": [
+		"keziumo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/testing-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.johnhaab.testing.ExampleMod"
+		],
+		"client": [
+			"xyz.johnhaab.testing.ExampleModClient"
+		],
+		"fabric-datagen": [
+			"xyz.johnhaab.testing.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"testing-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
